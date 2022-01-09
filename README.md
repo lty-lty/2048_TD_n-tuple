@@ -35,7 +35,9 @@ constants.py 和 gamegrid.py 是用于展示游戏界面的程序，用于用户
 
 ### 人工操作 / 模型演示
 
->		python3 main.py --mode=play
+```
+python3 main.py --mode=play
+```
 
 ​		w/a/s/d 控制移动方向，h 键让模型帮助移动一步，z 键进入/退出模型自动演示模式。 
 
@@ -45,7 +47,9 @@ constants.py 和 gamegrid.py 是用于展示游戏界面的程序，用于用户
 
 ### 训练模型
 
->	python3 main.py --mode=train -e=10000 -m=500
+```
+python3 main.py --mode=train -e=10000 -m=500
+```
 
 ​		用于训练模型，参数保存在 tupleNet 文件夹下。
 
@@ -61,7 +65,9 @@ constants.py 和 gamegrid.py 是用于展示游戏界面的程序，用于用户
 
 ### 测试模型
 
->	python3 main.py --mode=test -e=10000 -m=500
+```
+python3 main.py --mode=test -e=10000 -m=500
+```
 
 ​		用于测试保存在 tupleNet 文件夹下的模型。
 
