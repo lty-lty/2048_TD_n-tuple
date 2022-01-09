@@ -17,7 +17,7 @@ tester.py 是新增的测试模型并统计结果的部分。
 
 constants.py 和 gamegrid.py 是用于展示游戏界面的程序，用于用户玩游戏或者模型演示。
 
-tupleNet 文件夹下包含了 n-tuple network 各状态的参数。
+（解压 tupleNet.rar）得到的 tupleNet 文件夹下包含了 n-tuple network 各状态的参数。
 
 除了 constants.py 和 gamegrid.py 基本使用原有代码外，其余部分均为复现实现，并且修改了分数的计算规则以适应项目要求，新增了测试与统计模块用于输出项目结果。
 
