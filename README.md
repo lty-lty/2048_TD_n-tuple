@@ -27,11 +27,15 @@ constants.py 和 gamegrid.py 是用于展示游戏界面的程序，用于用户
 
 
 
+### 解压参数
+
+解压 tupleNet.rar 到 tupleNet 文件夹，包含了 n-tuple network 各状态的参数。
+
+
+
 ### 人工操作 / 模型演示
 
->	```
->	python3 main.py --mode=play
->	```
+>		python3 main.py --mode=play
 
 ​		w/a/s/d 控制移动方向，h 键让模型帮助移动一步，z 键进入/退出模型自动演示模式。 
 
